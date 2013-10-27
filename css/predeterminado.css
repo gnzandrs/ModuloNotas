@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+<!--
+
+.encabezado{
+font-family:Arial, Helvetica, sans-serif;
+color: #AB456F;
+font-size:20px;
+font-weight:900;
+float:left;
+width:314px;
+height:394px;
+background-image:url(imagenes/inicio.jpg);
+}
+
+.todo {
+background-color:#d7e2f2;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+
+.fondo_index{
+background-color: #AB456F;
+color: #FFFFFF;
+font-size:20px;
+font-weight:900;
+height:30px;
+}
+
+#header_usuario: a:hover, a:link, a:visited{
+text-decoration:none;
+color: #FFFFFF;
+}
+
+#header_contenedor: a:hover, a:link, a:visited{
+text-decoration:none;
+color: #FFFFFF;
+}
+
+a:hover{
+color: #009900
+}
+
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+.todo:hover {
+background-color:#003366;
+color: #CCCCCC;
+font-style: inherit;
+}
+
+.promedio{
+background-color: #AB456F;
+font-size:20px;
+font-weight:500;
+color: #CCCCCC;
+font-style: inherit;
+}
+
+.fondo_tabla
+{
+
+text-transform: capitalize;
+padding-top: 0.2em;
+padding-right: 0.2em;
+padding-bottom: 0.2em;
+padding-left: 0.2em;
+background-color: #8cafe1;
+background-image: url(images/crystal3.png);
+background-repeat: repeat-x;
+background-attachment: scroll;
+background-position: 0% 0%;
+color: #ffffff;
+border-right-width-value: 1px;
+border-right-style-value: solid;
+border-right-color-value: #ffffff;
+border-right-width-ltr-source: physical;
+border-right-width-rtl-source: physical;
+border-right-style-ltr-source: physical;
+border-right-style-rtl-source: physical;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+
+}
+
+#navegacion{
+background-color: #FFFFFF;
+color:#000000;
+font-weight: bold;
+font-family: arial;
+font-size: small;
+}
+
+#header_contenedor{
+background-color: #ab456f;
+color: #FFFFFF;
+font-weight: bold;;
+}
+
+#header_top{
+
+background-color: #ab456f;
+color: #FFFFFF;
+font-weight: bold;
+font-family: bold arial,verdana,helvetica,sans-serif;
+}
+
+#header_medio{
+background-color: #ab456f;
+color: #FFFFFF;
+font-weight: bold;
+font-family: bold arial,verdana,helvetica,sans-serif;
+font-size: 70%;
+}
+
+
+#header_usuario{
+background-color: #ab456f;
+color: #FFFFFF;
+font-weight: bold;
+font-family: bold arial,verdana;
+font-size: 60%;
+}
+
+
+#pie_pagina {
+	background: #4171b5 url('images/bg.jpg') no-repeat 50% 100%;
+	color: #b0c8eb;
+	padding: 82px 0 .8em 2%;
+	border-bottom: 1px solid #ECD3DD;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 80%;
+	color: white;
+	text-decoration: none;
+}
+
+.boton{
+
+margin-top: 0pt;
+margin-right: 5px;
+margin-bottom: 3px;
+margin-left: 3px;
+background-color: #dfdfdf;
+border-top-width: 1px;
+border-right-width-value: 1px;
+border-bottom-width: 1px;
+border-left-width-value: 1px;
+border-left-width-ltr-source: physical;
+border-left-width-rtl-source: physical;
+border-right-width-ltr-source: physical;
+border-right-width-rtl-source: physical;
+font-family: bold arial,verdana,helvetica,sans-serif;
+font-size: 100%;
+line-height: 130%;
+text-decoration: none;
+color: black;
+cursor: pointer;
+padding-top: 5px;
+padding-right: 15px;
+padding-bottom: 5px;
+padding-left: 15px;
+vertical-align: middle;
+background-image: url(images/button_accept.gif);
+padding-left: 30px;
+background-position: 10px 50%;
+background-repeat: no-repeat;
+
+}
+
+.boton:hover{
+
+background-color: #cbcbcb;
+color: #545454;
+border-top-style: inset;
+border-right-style-value: inset;
+border-bottom-style: inset;
+border-left-style-value: inset;
+border-left-style-ltr-source: physical;
+border-left-style-rtl-source: physical;
+border-right-style-ltr-source: physical;
+border-right-style-rtl-source: physical;
+
+}
+
+button.add, button.save, button.cancel, button.refresh, button.upload, button.search, button.login, button.plus, button.minus, button.next, button.back{
+
+padding-left: 30px;
+background-position: 10px 50%;
+background-repeat: no-repeat;
+
+}
+
+.boton.save, button.add, button.search, button.refresh, button.upload, button.login, button.plus, button.minus, button.next, button.back{
+
+background-color: #e5edf9;
+border-top-color: #d4e2f6;
+border-right-color-value: #d4e2f6;
+border-bottom-color: #d4e2f6;
+border-left-color-value: #d4e2f6;
+border-left-color-ltr-source: physical;
+border-left-color-rtl-source: physical;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+
+}
+
+.boton.save{
+
+background-image: url(images/button_accept.gif);
+
+}
+
+button.save:hover, button.refresh:hover, button.upload:hover, button.add:hover, button.search:hover, button.login:hover, button.plus:hover, button.minus:hover, button.next:hover, button.back:hover (línea 1873)
+
+{
+
+border-top-color: #d4e2f6;
+border-right-color-value: #d4e2f6;
+border-bottom-color: #d4e2f6;
+border-left-color-value: #d4e2f6;
+border-left-color-ltr-source: physical;
+border-left-color-rtl-source: physical;
+border-right-color-ltr-source: physical;
+border-right-color-rtl-source: physical;
+background-color: #d4e2f6;
+
+}
+
+.boton.Ingresar{
+background-color:#9999FF;
+}
+
+.tabla_inicio {
+background-color:#d7e2f2;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+.tabla_profesor{
+background-color:white;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+}
+
+.datos:hover{
+background-color:#ab456f;
+color: #CCCCCC;
+font-style: inherit;
+}
+
+.tabla_fondo{
+background-color: #E2E2E2;
+color: #8A8A8A;
+font-size:11px;
+font-weight:500;
+}
+
+.titulo_tabla{
+background-color: #E1E2F2;
+color: #FFFFFF;
+font-size:30px;
+font-weight:900;
+padding:0px, 0px, 0px, 0px;
+height:110px;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+#espacio_izq{
+background-image:url(imagenes/colegio.jpg);
+width:314px;
+height:500px;
+float:left;
+}
+
+
+
+#imagen_index{
+background-image:url(imagenes/fondo_index.jpg);
+float:right;
+width:457px;
+height:332px;
+}
+
+#notas{
+width:322px;
+height:300px;
+}
+
+-->
+</style>
+
